@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: white;
+    --bs-btn-bg: #1DC6BB;
+    --bs-btn-border-color: #1DC6BB;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: #1DC6BB;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: #1DC6BB;
+
+}
+
+.btn-bd-outline-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: #1DC6BB;
+    --bs-btn-border-color: #1DC6BB;
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #1DC6BB;
+}
+
+.card {
+    max-width: 874px;
+}
+
+
+.card-title {
+    color: #284B80;
+}
+
+.card-title-desc {
+    color: #8D98AA;
+}
+
+.row {
+    background-color: #F7F9FF;
+}
+
+.row h6 {
+    color: #8D98AA;
+}
+
+.row p {
+    color: #284B80;
+    font-size: 28px;
+}
